@@ -1,0 +1,27 @@
+{
+  "name": "clients-manager-api",
+  "version": "0.0.1",
+  "description": "Clients management app API",
+  "author": "Masis Karapetyan (Sirius MK)",
+  "main": "server.js",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.9.26",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "path": "^0.12.7",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
